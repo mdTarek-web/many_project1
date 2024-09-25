@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       details[open] > summary{
+            background-color: aqua;
+            width: 200px;
+            font-size: 170%; 
+            border-radius: 30px;
+           
+        }
+        p{
+             font-size: 1.2rem;
+             font-family: fantasy;
+             background-color: chocolate;
+              width: 600px;
+              padding:25px;
+              font-style: italic;
+              font-weight: bold;
+              text-align: center;
+              color:rgb(105, 61, 139)
+
+        }
+        .align{
+           text-align: center;
+            border: 1px solid black;
+            width: 650px;
+        }
+         .list{
+            text-decoration: underline;
+            color: rgb(0, 0, 255);
+        } 
+        .para{
+           text-align: justify;
+            font-size:175%;
+            color: blue;
+            text-indent: 50px;
+            text-transform: capitalize;
+            word-spacing: 2px;
+            margin-left: 25px;
+           display: inline-block; 
+        }
+       .para::first-line{
+             color: rgb(255, 144, 80);
+        }
+        h1{
+            text-shadow: 3px 2px red;
+            
+        }
+        span:hover{
+            color: green;
+        }
+        input:focus{
+            background-color: rgb(0, 128, 126);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My skil</h1>
+    <ol type="I" class="list">
+        <li>HTML : <progress value="70" max="100"></progress></li><br>
+        <li>CSS : <progress value="50" max="100"></progress></li><br>
+         <li>JAVASCRIPT : <progress value="30" max="100"></progress></li> <br>
+    </ol>
+    <div class="align">
+        <details >
+          <summary>Summary Here</summary>
+            <p>lorem ipsum dolor sit amet consecteture adipisicing elit <br>
+            lorem ipsum dolor sit amet consecteture adipisicing elit <br>
+            lorem ipsum dolor sit amet consecteture adipisicing elit <br>
+            lorem ipsum dolor sit amet consecteture adipisicing elit <br></p>
+       </details>
+    </div>
+    <h1>bangladesh</h1>
+    <p1 class="para"> ipsum dolor sit amet consecteture adipisicing elitloremipsum dolor sit amet consecteture adipisicing elitlorem 
+            lorem ipsum dolor sit amet consecteture adipisicing elitipsum dolor sit amet consecteture adipisicing elitlorem 
+            lorem ipsum dolor sit amet consecteture adipisicing elit ipsum dolor sit amet consecteture adipisicing elitlorem
+            lorem ipsum dolor sit amet consecteture adipisicing elit ipsum dolor sit amet consecteture adipisicing elitlorem<br></p1>
+        <h1>
+            <span class="span">
+            bangladesh is my country
+            </span>
+        </h1>
+        <input type="text"placeholder="Enter your name">
+ </body>
+</html>
+    

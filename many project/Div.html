@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 1</title>
+    <style>
+      /** :root{
+            --primary-color:brown;
+            --secondary-color:red;
+        }**/
+        div{
+            height: 250px;
+            width: 250px;
+            background-color: aqua;
+            border: 10px solid purple;
+            box-shadow:10px -15px 0px rgb(0, 11, 128);
+            display:flex;
+            
+        } 
+        .div1{
+            background-color: lightblue;
+        /**   background:var(--primary-color:blue)**/
+            position: absolute;
+           /** z-index: -2;**/
+        }
+        #div2{
+            background: red;
+           /**  background:var(--secondary-color)**/
+            position: absolute;
+            left: 120px;
+            top: 120px;
+           /**  z-index: -1; **/
+        }
+         .div3{
+            background:blueviolet;
+           /**  background:var(--secondary-color)**/
+            position: absolute;
+            left: 200px;
+            top: 200px;
+           /**  z-index: -1; **/
+        }
+    /**  @media screen and(max-width:600px){
+             :root{
+            --primary-color:black;
+            --secondary-color:blue;
+        }
+    }**/
+  div:hover{
+    background-color: brown;
+     z-index: 1;
+    }
+     p{
+        position: absolute;
+        background-color:green;
+        width: 145px;
+        height: 145px;
+        border-radius:50%;
+        margin: 52px;
+       /** text-align: center;
+        justify-content: center;
+        align-items: center;**/
+     }
+      a{
+     position: absolute;
+     color: #ffff00;
+     text-align: center;
+     text-decoration: none;
+     }
+     
+    </style>
+</head>
+<body>
+   <div class="box">
+     <div class="div1"></div>
+     <div id="div2">
+        <p>
+            <a href="#">My name is tarek rahman khan</a>
+        </p>
+     </div>
+   </div>
+    <div class="div3"></div>
+    <div class="container">
+        <div class="item1">1</div>
+        <div>2</div>
+        <div class="three">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14 </div>
+        <div>15</div>
+
+    </div>
+</html>
